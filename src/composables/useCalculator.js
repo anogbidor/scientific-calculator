@@ -1,5 +1,5 @@
 import { reactive, computed, onMounted, onBeforeUnmount } from 'vue'
-import { sqrt, cbrt, pow, sin, cos, tan, log, log10, PI } from 'mathjs'
+import { sqrt, cbrt, pow, sin, cos, tan, log, log10 } from 'mathjs'
 
 export function useCalculator() {
   const LOCAL_HISTORY_KEY = 'vue-calculator-history'
@@ -140,10 +140,8 @@ export function useCalculator() {
         break
       case 'log10':
         result = log10(num)
-        break
-      case 'pi':
-        result = PI
-        break
+      break
+     
       case '1/x':
         result = 1 / num
         break
