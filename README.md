@@ -16,22 +16,6 @@ A powerful, modern, and modular scientific calculator built with Vue 3 and Tailw
 - 🎨 Styled with Tailwind CSS
 - 🔧 Modular component structure using `<script setup>`
 
----
-
-## 📂 Folder Structure
-
-src/
-├── components/
-│   ├── CalculatorDisplay.vue
-│   ├── HistoryLog.vue
-│   ├── MemoryButtons.vue
-│   ├── NumberPad.vue
-│   ├── ScientificButtons.vue
-│   └── CalculatorContainer.vue
-├── composables/
-│   └── useCalculator.js
-├── App.vue
-└── main.js
 
 ---
 
@@ -72,7 +56,7 @@ Made with ❤️ by Anogbidor
 ```text
 MIT License
 
-Copyright (c) 2024 Anogbidor
+Copyright (c) 2025 Anogbidor
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -89,5 +73,5 @@ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
 THE SOFTWARE.
